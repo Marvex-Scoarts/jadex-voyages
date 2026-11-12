@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADEX VOYAGES | Curated Luxury Travel &amp; Getaways</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">JADEX VOYAGES</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#saved" class="saved-link">Saved Trips (0)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">BESPOKE GLOBAL ESCAPES</span>
+      <h1>Discover the World in Effortless Luxury</h1>
+      <p>Tailor-made itineraries, private coastal villas, and unforgettable adventures curated for modern travelers.</p>
+      <div class="hero-actions">
+        <a href="#destinations" class="btn primary-btn">Explore Destinations</a>
+        <a href="#packages" class="btn outline-btn">View Packages</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Destinations Section -->
+  <section id="destinations" class="destinations-section">
+    <div class="section-header">
+      <span class="sub-tag">CURATED ESCAPES</span>
+      <h2>Iconic Destinations</h2>
+      <p>Handpicked coastal retreats and cultural capitals around the globe</p>
+    </div>
+
+    <div class="destinations-grid">
+      <!-- Destination 1 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="greece.jpg" alt="Santorini, Greece">
+          <span class="duration-badge">7 Days / 6 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Santorini, Greece</h3>
+            <span class="dest-price">$2,450</span>
+          </div>
+          <p>Cliffside infinity suites in Oia, private catamaran sunset cruises, and Aegean gastronomy.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Santorini, Greece ($2,450)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Destination 2 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="italy.jpg" alt="Amalfi Coast, Italy">
+          <span class="duration-badge">6 Days / 5 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Amalfi Coast, Italy</h3>
+            <span class="dest-price">$2,890</span>
+          </div>
+          <p>Pastel cliffside villages in Positano, vintage convertible coastal drives, and Capri yacht excursions.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Amalfi Coast, Italy ($2,890)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Destination 3 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="tanzania.jpg" alt="Zanzibar Archipelago">
+          <span class="duration-badge">5 Days / 4 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Zanzibar, Tanzania</h3>
+            <span class="dest-price">$1,750</span>
+          </div>
+          <p>Turquoise Indian Ocean lagoons, overwater bungalows, spice island tours, and starlit beach dining.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Zanzibar, Tanzania ($1,750)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Destination 4 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="japan.jpg" alt="Kyoto, Japan">
+          <span class="duration-badge">8 Days / 7 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Kyoto, Japan</h3>
+            <span class="dest-price">$3,150</span>
+          </div>
+          <p>Private bamboo grove walks, historic ryokan stays, matcha tea ceremonies, and cherry blossom gardens.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Kyoto, Japan ($3,150)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+         <!-- Destination 5 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="peru.jpg" alt="Cusco & Machu Picchu, Peru">
+          <span class="duration-badge">13 Days / 12 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Cusco & Machu Picchu, Peru</h3>
+            <span class="dest-price">$5,850</span>
+          </div>
+          <p>Misty Andean peaks, ancient stone citadels, colorful woven markets, and dramatic Sacred Valley hikes.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Cusco & Machu Picchu, Peru ($5,850)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 6 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="canada.jpg" alt="Banff National Park, Canada">
+          <span class="duration-badge">11 Days / 10 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Banff National Park, Canada</h3>
+            <span class="dest-price">$9,750</span>
+          </div>
+          <p>Turquoise glacial lakes, snow-dusted Rocky Mountain peaks, scenic alpine drives, and cozy fireside lodges.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Banff National Park, Canada ($9,750)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 7 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="columbia.jpg" alt="Cartagena, Colombia">
+          <span class="duration-badge">5 Days / 4 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Cartagena, Colombia</h3>
+            <span class="dest-price">$4,250</span>
+          </div>
+          <p>Sun-drenched cobblestone streets, vibrant bougainvillea balconies, Caribbean island hopping, and lively salsa nights.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Cartagena, Colombia ($4,250)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 8 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="iceland.jpg" alt="Reykjavik & The Golden Circle, Iceland">
+          <span class="duration-badge">10 Days / 9 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Reykjavik & The Golden Circle, Iceland</h3>
+            <span class="dest-price">$4,950</span>
+          </div>
+          <p>Steaming geothermal lagoons, thundering glacial waterfalls, erupting geysers, and dancing Northern Lights.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Reykjavik & The Golden Circle, Iceland ($4,950)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 9 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="indonesia.jpg" alt="Bali, Indonesia">
+          <span class="duration-badge">9 Days / 8 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Bali, Indonesia</h3>
+            <span class="dest-price">$2,350</span>
+          </div>
+          <p>Emerald terraced rice paddies, sacred clifftop temples, world-class surf beaches, and tranquil jungle wellness retreats.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Bali, Indonesia ($2,350)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 10 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="rome.jpg" alt="Rome, Italy">
+          <span class="duration-badge">7 Days / 6 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Rome, Italy</h3>
+            <span class="dest-price">$4,750</span>
+          </div>
+          <p>Ancient marble ruins, Renaissance masterpieces, lively cobblestone piazzas, and authentic Roman trattorias.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Rome, Italy ($4,750)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 11 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="kenya.jpg" alt="Maasai Mara, Kenya">
+          <span class="duration-badge">5 Days / 4 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Maasai Mara, Kenya</h3>
+            <span class="dest-price">$2,450</span>
+          </div>
+          <p>Endless golden savannahs, dramatic Great Migration crossings, luxury tented camps, and sunrise hot-air balloon safaris.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Maasai Mara, Kenya ($2,450)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 12 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="morocco.jpg" alt="Marrakech, Morocco">
+          <span class="duration-badge">9 Days / 8 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Marrakech, Morocco</h3>
+            <span class="dest-price">$3,950</span>
+          </div>
+          <p>Vibrant spice-scented souks, intricate mosaic palaces, tranquil courtyard riads, and desert sunset camel treks.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Marrakech, Morocco ($3,950)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 13 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="new_zealand.jpg" alt="Queenstown, New Zealand">
+          <span class="duration-badge">7 Days / 6 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Queenstown, New Zealand</h3>
+            <span class="dest-price">$6,550</span>
+          </div>
+          <p>Dramatic Southern Alps peaks, crystal-clear glacial lakes, thrilling bungee jumps, and scenic Milford Sound cruises.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Queenstown, New Zealand ($6,550)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 14 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="croatia.jpg" alt="Dubrovnik, Croatia">
+          <span class="duration-badge">7 Days / 6 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Dubrovnik, Croatia</h3>
+            <span class="dest-price">$3,550</span>
+          </div>
+          <p>Towering medieval stone walls, terracotta-roofed Old Town alleys, sparkling Adriatic waters, and scenic island boat hops.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Dubrovnik, Croatia ($3,550)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 15 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="turkey.jpg" alt="Istanbul, Turkey">
+          <span class="duration-badge">13 Days / 12 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Istanbul, Turkey</h3>
+            <span class="dest-price">$2,850</span>
+          </div>
+          <p>Soaring Ottoman domes, bustling spice-filled bazaars, scenic Bosphorus cruises, and rooftop Turkish tea terraces.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Istanbul, Turkey ($2,850)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+       <!-- Destination 16 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="south-africa.jpg" alt="Cape Town, South Africa">
+          <span class="duration-badge">8 Days / 7 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Cape Town, South Africa</h3>
+            <span class="dest-price">$3,950</span>
+          </div>
+          <p>Dramatic flat-topped Table Mountain, turquoise Atlantic coves, scenic Cape Winelands, and charming Boulders Beach penguins.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Zanzibar, Tanzania ($3,950)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Destination 17 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="jordan.jpg" alt="Petra, Jordan">
+          <span class="duration-badge">6 Days / 5 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Petra, Jordan</h3>
+            <span class="dest-price">$7,450</span>
+          </div>
+          <p>Rose-red sandstone canyons, monumental rock-cut temples, candlelit desert nights, and timeless Bedouin hospitality.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Petra, Jordan ($7,450)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Destination 18 -->
+      <article class="dest-card">
+        <div class="dest-image">
+          <img src="south_korea.jpg" alt="Seoul, South Korea">
+          <span class="duration-badge">10 Days / 9 Nights</span>
+        </div>
+        <div class="dest-info">
+          <div class="dest-top">
+            <h3>Seoul, South Korea</h3>
+            <span class="dest-price">$5,750</span>
+          </div>
+          <p>Neon-lit skyscrapers, centuries-old royal palaces, bustling night street-food markets, and tranquil Hanok villages.</p>
+          <div class="dest-actions">
+            <button class="btn save-trip-btn" data-trip="Zanzibar, Tanzania ($5,750)">&#9825; Save Trip</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Vacation Packages Section -->
+  <section id="packages" class="packages-section">
+    <div class="section-header">
+      <span class="sub-tag">ALL-INCLUSIVE EXPERIENCES</span>
+      <h2>Signature Vacation Packages</h2>
+    </div>
+
+    <div class="packages-grid">
+      <!-- Package 1 -->
+      <div class="package-card">
+        <span class="pkg-tier">MOST POPULAR</span>
+        <h3>Besties Luxury Escape</h3>
+        <p class="pkg-price">$3,400 <span>/ per guest</span></p>
+        <ul class="pkg-features">
+          <li>5-Star Boutique Suite Accommodation</li>
+          <li>Private Airport Chauffeur &amp; Yacht Day</li>
+          <li>Daily Champagne Breakfast &amp; Spa Access</li>
+          <li>Dedicated 24/7 Travel Concierge</li>
+        </ul>
+        <button class="btn primary-btn book-pkg-btn" data-pkg="Besties Luxury Escape">Inquire Now</button>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="package-card featured-pkg">
+        <span class="pkg-tier">VIP EDITION</span>
+        <h3>Mediterranean Grand Tour</h3>
+        <p class="pkg-price">$4,950 <span>/ per guest</span></p>
+        <ul class="pkg-features">
+          <li>10 Nights Across Paris, Amalfi &amp; Santorini</li>
+          <li>First-Class Rail &amp; Private Island Transfers</li>
+          <li>Michelin-Starred Tasting Dinners</li>
+          <li>Professional Vacation Photoshoot</li>
+        </ul>
+        <button class="btn primary-btn book-pkg-btn" data-pkg="Mediterranean Grand Tour">Inquire Now</button>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="package-card">
+        <span class="pkg-tier">TROPICAL BLISS</span>
+        <h3>Island Sanctuary Retreat</h3>
+        <p class="pkg-price">$2,600 <span>/ per guest</span></p>
+        <ul class="pkg-features">
+          <li>Overwater Villa with Private Plunge Pool</li>
+          <li>Sunset Dhow Cruise &amp; Snorkeling Safari</li>
+          <li>All-Inclusive Gourmet Dining &amp; Cocktails</li>
+          <li>Couples or Besties Wellness Spa Ritual</li>
+        </ul>
+        <button class="btn primary-btn book-pkg-btn" data-pkg="Island Sanctuary Retreat">Inquire Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Banner -->
+  <section id="why-us" class="why-section">
+    <div class="why-content">
+      <h2>Curated With Heart, Executed With Precision</h2>
+      <p>Every Jadex Voyages itinerary is custom-designed around your pace, aesthetic, and bucket-list dreams—so all you have to do is pack your bags.</p>
+    </div>
+  </section>
+
+    <!-- Overlay -->
+  <div class="jv-overlay" id="jvOverlay"></div>
+
+  <!-- Saved Trips Drawer -->
+  <aside class="trips-drawer" id="tripsDrawer">
+    <div class="jv-drawer-header">
+      <h3>MY ITINERARY</h3>
+      <button class="jv-close" id="closeTripsBtn">&times;</button>
+    </div>
+    <div class="jv-drawer-body" id="savedTripsList">
+      <p style="color:#5A7184; text-align:center; margin-top:2rem;">No destinations saved yet. Click "Save Trip" on any getaway!</p>
+    </div>
+  </aside>
+
+  <!-- Package Inquiry Modal -->
+  <div class="pkg-modal" id="pkgModal">
+    <div class="pkg-modal-top">
+      <button class="jv-close" id="closePkgBtn" style="position:absolute; top:1rem; right:1.2rem;">&times;</button>
+      <span>VIP TRAVEL CONCIERGE</span>
+      <h3 id="selectedPkgTitle">Besties Luxury Escape</h3>
+    </div>
+    <form class="pkg-modal-form" id="pkgInquiryForm">
+      <input type="text" id="travelerName" placeholder="Your Full Name" required>
+      <input type="email" placeholder="Your Email Address" required>
+      <input type="month" required>
+      <button type="submit" class="btn primary-btn" style="width:100%;">Request Custom Itinerary</button>
+      <div class="pkg-confirm-msg" id="pkgConfirmMsg"></div>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 JADEX VOYAGES. Luxury Travel &amp; Bespoke Itineraries.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
