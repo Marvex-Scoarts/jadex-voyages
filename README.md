@@ -15,6 +15,6 @@ Jadex Voyages showcases curated international destinations, all-inclusive vacati
 * **VIP Package Inquiry Modal:** Clicking **Inquire Now** on any vacation tier opens a personalized concierge request pop-up with instant confirmation.
 
 ## Built With
-* **HTML5** — Semantic travel layout & custom SVG compass monogram favicon
+* **HTML5** — Semantic travel layout
 * **CSS3** — Custom variables, glassmorphism sticky header, responsive grids, and smooth hover transitions
 * **Vanilla JavaScript** — Live itinerary state management and interactive modal controls
